@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-b from-white to-zinc-50 text-zinc-900 antialiased dark:from-zinc-950 dark:to-zinc-900 dark:text-zinc-100;
+}
